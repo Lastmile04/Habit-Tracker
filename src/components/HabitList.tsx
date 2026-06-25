@@ -10,7 +10,7 @@ import {
 } from "date-fns";
 
 import { Button } from "./Buttons";
-import { useHabits, type Habit } from "../context/HabitProvider";
+import { useHabits, type Habit } from "../context/useHabits";
 
 export function HabitList() {
     const { habits } = useHabits();
